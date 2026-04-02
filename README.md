@@ -1,10 +1,10 @@
 # Smart-Traffic-Mangment
-##Overview
+## Overview
 A real-time, density-based traffic light control system built for the Raspberry Pi 5. This project utilizes Classical Computer Vision to monitor intersection traffic, dynamically adjust green-light times based on vehicle density, and provide immediate lane overrides for emergency/priority vehicles.
 
 Built using Python and OpenCV, the system processes video locally at the edge (30 FPS) without relying on external cloud processing or heavy Deep Learning models.
 
-##Key Features
+## Key Features
 Dynamic Density Routing: Compares vehicle counts between horizontal and vertical lanes to optimize traffic flow.
 
 Emergency Vehicle Override: Calculates bounding box area thresholds to identify large priority vehicles, immediately granting them a green light.
@@ -13,7 +13,7 @@ Failsafe Idle Timer: Automatically cycles lights every 10 seconds if the interse
 
 Auto-Calibration: Uses a 5-second startup sequence to map the geometric boundaries of the intersection using visual markers.
 
-##Filters & Morphological Processing
+## Filters & Morphological Processing
 Instead of a heavy neural network, this system achieves high-speed object detection using a highly tuned Classical Computer Vision pipeline.
 HSV Color Filtering (cv2.inRange): The raw BGR camera feed is converted to the Hue, Saturation, Value (HSV) color space. This makes the system highly robust to changes in room lighting. A binary mask is created to isolate specific colors (e.g., yellow vehicles), turning targets white and the background black.
 Gaussian Blur (cv2.blur): A 3x3 kernel is applied to smooth edges and remove high-frequency camera noise before structural changes are made.
