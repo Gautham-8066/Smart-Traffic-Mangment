@@ -38,3 +38,6 @@ Raspberry Pi Camera Module
 4x 220Ω Resistors
 
 Jumper wires & Breadboard
+
+## To run the code
+libcamerify python3 final_traffic.py
