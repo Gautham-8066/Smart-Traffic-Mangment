@@ -27,3 +27,14 @@ Erosion (iterations=1): Shrinks the white pixels. This strips away tiny speckles
 Final Dilation (iterations=5): Restores the surviving vehicle blobs back to their accurate real-world size so the Area calculation (width * height) works correctly for the priority vehicle override.
 
 Contour Extraction & Bounding Boxes: cv2.findContours and cv2.minAreaRect wrap the cleaned morphological blobs in mathematical rectangles to extract $X/Y$ coordinates and spatial area.
+
+## Hardware Requirements
+Raspberry Pi 5 (with active cooling recommended)
+
+Raspberry Pi Camera Module
+
+4x LEDs (Red & Green)
+
+4x 220Ω Resistors
+
+Jumper wires & Breadboard
