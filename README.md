@@ -1,4 +1,4 @@
-# Smart-Traffic-Mangment
+# Smart-Traffic-Managment
 ## Overview
 A real-time, density-based traffic light control system built for the Raspberry Pi 5. This project utilizes Classical Computer Vision to monitor intersection traffic, dynamically adjust green-light times based on vehicle density, and provide immediate lane overrides for emergency/priority vehicles.
 
