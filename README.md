@@ -41,3 +41,10 @@ Jumper wires & Breadboard
 
 ## To run the code
 libcamerify python3 final_traffic.py
+
+##Images
+<img width="1919" height="1067" alt="Screenshot 2026-03-18 112243" src="https://github.com/user-attachments/assets/8a0596e4-98e4-4af4-abe6-5e538053ca67" />
+<img width="1908" height="1063" alt="Screenshot 2026-03-18 112151" src="https://github.com/user-attachments/assets/51ddb3e5-39e7-4092-9aa4-5254c182b94b" />
+<img width="1908" height="1041" alt="Screenshot 2026-03-18 111927" src="https://github.com/user-attachments/assets/739c9b17-d6e4-4991-aabc-12458befc2d6" />
+
+
